@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10DFE513-B572-482A-8B12-5E2B7B53834C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Fundamentos</RootNamespace>
+    <AssemblyName>Fundamentos</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form02PosicionObjetos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form02PosicionObjetos.Designer.cs">
+      <DependentUpon>Form02PosicionObjetos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form03Sentencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form03Sentencias.Designer.cs">
+      <DependentUpon>Form03Sentencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form04Colores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form04Colores.Designer.cs">
+      <DependentUpon>Form04Colores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form05MayorTresNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form05MayorTresNumeros.Designer.cs">
+      <DependentUpon>Form05MayorTresNumeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form06DiaNacimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form06DiaNacimiento.Designer.cs">
+      <DependentUpon>Form06DiaNacimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form07Fechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form07Fechas.Designer.cs">
+      <DependentUpon>Form07Fechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form08Char.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08Char.Designer.cs">
+      <DependentUpon>Form08Char.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form08Checkbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08Checkbox.Designer.cs">
+      <DependentUpon>Form08Checkbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form09ValidarEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form09ValidarEmail.Designer.cs">
+      <DependentUpon>Form09ValidarEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10SumarNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10SumarNumeros.Designer.cs">
+      <DependentUpon>Form10SumarNumeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11Narcisista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11Narcisista.Designer.cs">
+      <DependentUpon>Form11Narcisista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12ValidarISBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12ValidarISBN.Designer.cs">
+      <DependentUpon>Form12ValidarISBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13ComparacionString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13ComparacionString.Designer.cs">
+      <DependentUpon>Form13ComparacionString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14Metodosobjetos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14Metodosobjetos.Designer.cs">
+      <DependentUpon>Form14Metodosobjetos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16Arrays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16Arrays.Designer.cs">
+      <DependentUpon>Form16Arrays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17ColeccionesGraficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17ColeccionesGraficas.Designer.cs">
+      <DependentUpon>Form17ColeccionesGraficas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18SumaAleatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18SumaAleatorios.Designer.cs">
+      <DependentUpon>Form18SumaAleatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20TiendadeProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20TiendadeProductos.Designer.cs">
+      <DependentUpon>Form20TiendadeProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21EventosObjeto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21EventosObjeto.Designer.cs">
+      <DependentUpon>Form21EventosObjeto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21FechasTemperatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21FechasTemperatura.Designer.cs">
+      <DependentUpon>Form21FechasTemperatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22ColeccionesNoGraficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22ColeccionesNoGraficas.Designer.cs">
+      <DependentUpon>Form22ColeccionesNoGraficas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23TemperaturasColecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23TemperaturasColecciones.Designer.cs">
+      <DependentUpon>Form23TemperaturasColecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form24SepararControlesColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24SepararControlesColor.Designer.cs">
+      <DependentUpon>Form24SepararControlesColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form25TablaCajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25TablaCajas.Designer.cs">
+      <DependentUpon>Form25TablaCajas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32Imagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32Imagenes.Designer.cs">
+      <DependentUpon>Form32Imagenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form33HerenciaClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33HerenciaClases.Designer.cs">
+      <DependentUpon>Form33HerenciaClases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form34HerenciaPersonaEmpleadocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34HerenciaPersonaEmpleadocs.Designer.cs">
+      <DependentUpon>Form34HerenciaPersonaEmpleadocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35TemperaturasAnuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35TemperaturasAnuales.Designer.cs">
+      <DependentUpon>Form35TemperaturasAnuales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35TemperaturasClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35TemperaturasClases.Designer.cs">
+      <DependentUpon>Form35TemperaturasClases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pruebas2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas2.Designer.cs">
+      <DependentUpon>Pruebas2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form02PosicionObjetos.resx">
+      <DependentUpon>Form02PosicionObjetos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form03Sentencias.resx">
+      <DependentUpon>Form03Sentencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form04Colores.resx">
+      <DependentUpon>Form04Colores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form05MayorTresNumeros.resx">
+      <DependentUpon>Form05MayorTresNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form06DiaNacimiento.resx">
+      <DependentUpon>Form06DiaNacimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form07Fechas.resx">
+      <DependentUpon>Form07Fechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form08Char.resx">
+      <DependentUpon>Form08Char.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form08Checkbox.resx">
+      <DependentUpon>Form08Checkbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form09ValidarEmail.resx">
+      <DependentUpon>Form09ValidarEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10SumarNumeros.resx">
+      <DependentUpon>Form10SumarNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11Narcisista.resx">
+      <DependentUpon>Form11Narcisista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12ValidarISBN.resx">
+      <DependentUpon>Form12ValidarISBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13ComparacionString.resx">
+      <DependentUpon>Form13ComparacionString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14Metodosobjetos.resx">
+      <DependentUpon>Form14Metodosobjetos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16Arrays.resx">
+      <DependentUpon>Form16Arrays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17ColeccionesGraficas.resx">
+      <DependentUpon>Form17ColeccionesGraficas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18SumaAleatorios.resx">
+      <DependentUpon>Form18SumaAleatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20TiendadeProductos.resx">
+      <DependentUpon>Form20TiendadeProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21EventosObjeto.resx">
+      <DependentUpon>Form21EventosObjeto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21FechasTemperatura.resx">
+      <DependentUpon>Form21FechasTemperatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22ColeccionesNoGraficas.resx">
+      <DependentUpon>Form22ColeccionesNoGraficas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23TemperaturasColecciones.resx">
+      <DependentUpon>Form23TemperaturasColecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24SepararControlesColor.resx">
+      <DependentUpon>Form24SepararControlesColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25TablaCajas.resx">
+      <DependentUpon>Form25TablaCajas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32Imagenes.resx">
+      <DependentUpon>Form32Imagenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33HerenciaClases.resx">
+      <DependentUpon>Form33HerenciaClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34HerenciaPersonaEmpleadocs.resx">
+      <DependentUpon>Form34HerenciaPersonaEmpleadocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35TemperaturasAnuales.resx">
+      <DependentUpon>Form35TemperaturasAnuales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35TemperaturasClases.resx">
+      <DependentUpon>Form35TemperaturasClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Pruebas2.resx">
+      <DependentUpon>Pruebas2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoClases\ProyectoClases.csproj">
+      <Project>{86e863b4-008a-484b-8ce0-b28d663bce01}</Project>
+      <Name>ProyectoClases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProyectoClases.Persona">
+    <Position X="0.5" Y="1.25" Width="2" />
+    <NestedTypes>
+      <Enum Name="ProyectoClases.Persona.SexoPersona" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>persona.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAgAAAgAAAAgAAAgAAAAACAAAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+      <NewMemberFileName>persona.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProyectoClases.Personaa">
+    <Position X="2.75" Y="1.25" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="ProyectoClases.Personaa.SexoPersona" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Personaa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ProyectoClases.Personaa.PersonaEstadoCivil" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Personaa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ProyectoClases.Personaa.Paises" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Personaa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ProyectoClases.Personaa.FormatoNombre" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Personaa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>GkAiQEIAAAgEAAiEjAAEgDBABEAAAkAEABAAAAQAhCA=</HashCode>
+      <FileName>Personaa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProyectoClases.Empleado" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAQAAAAAAIAAAIAAAAAACAA=</HashCode>
+      <FileName>Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
